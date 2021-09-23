@@ -3,7 +3,7 @@
       padding: 0;
       margin: 0;
       box-sizing: border-box;
-      /* border: 1px solid black; */
+      border: 1px solid rgba(0,0,0,.2);
   } 
 
   body {
@@ -22,12 +22,16 @@
       background-color: rgb(53, 53, 245);
       padding: 5px 15px;
       font-size: 13px;
+      display: inline-block; 
   }
 
   a {
     text-decoration: none;
   }
   /* Nav bar */
+  .right a.button {
+      display: inline;
+  }
 
   nav {
       height: 50px;
@@ -55,22 +59,20 @@
   
  .left {
      display: inline-block;
-     text-align: left;
-     width: 48%;
  }
 
  .left img {
-
+    vertical-align: middle;
      line-height: 50px;
      margin-right: 20px;
      margin-left: 10px;   
  }
 
  .right {
-     width: 50%;
-     display: inline-block;
      text-align: right;
      vertical-align: middle;
+     float:right;
+     margin-right: 10px;
  }
 
 /* Header */
@@ -109,3 +111,29 @@ h1 {
      float:right;
      margin-top: 40px;
  }
+
+
+ /* Main content */
+
+ /* Section 1 */
+.container {
+    width: 80%;
+    margin:auto;
+}
+
+main .container h2 {
+    text-align: left;
+    font-size: 30px;
+    margin-top: 170px;
+    margin-bottom: 30px;
+}
+
+.promotion {
+    width: 30%;
+    float: left;
+}
+
+.promotion.center {
+    margin-right: 5%;
+    margin-left: 5%;
+}
