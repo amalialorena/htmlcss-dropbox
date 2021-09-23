@@ -80,7 +80,7 @@ header {
 }
 
 .jumbo-container {
-    padding: 100px;
+    padding: 100px 100px 0 100px;
     text-align: left;
 }
 
@@ -90,8 +90,9 @@ h1 {
 }
 
 .text {
-    width: 500px;
+    width: 400px;
     margin-top: 40px;
+    float:left;
 }
  .text p {
      margin-bottom: 20px;
@@ -101,4 +102,10 @@ h1 {
  .text .cancel {
      margin-top: 12px;
      font-size: 13px;
+ }
+
+ .jumbo-img img{
+     width: 70%;
+     float:right;
+     margin-top: 40px;
  }
