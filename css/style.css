@@ -8,6 +8,7 @@
 
   body {
       margin-top: 50px;
+      font-family: 'Open Sans', sans-serif; 
   }
 
   .clearfix::after{
@@ -19,13 +20,14 @@
   .button {
       color:white;
       background-color: rgb(53, 53, 245);
-      padding: 3px 15px;
+      padding: 5px 15px;
+      font-size: 13px;
   }
 
   a {
     text-decoration: none;
   }
-  /* Header */
+  /* Nav bar */
 
   nav {
       height: 50px;
@@ -35,10 +37,7 @@
       right: 0;
       width: 100%;
       line-height: 50px;
-
-  }
-  .logo {
-      display:inline-block;
+      background-color: white;
   }
 
   ul {
@@ -59,10 +58,10 @@
      text-align: left;
      width: 48%;
  }
+
  .left img {
 
      line-height: 50px;
-     vertical-align: middle;
      margin-right: 20px;
      margin-left: 10px;   
  }
@@ -71,4 +70,35 @@
      width: 50%;
      display: inline-block;
      text-align: right;
+     vertical-align: middle;
+ }
+
+/* Header */
+ 
+header {
+    background-color: rgb(124, 165, 240);
+}
+
+.jumbo-container {
+    padding: 100px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.text {
+    width: 500px;
+    margin-top: 40px;
+}
+ .text p {
+     margin-bottom: 20px;
+     font-size: 15px;
+ }
+
+ .text .cancel {
+     margin-top: 12px;
+     font-size: 13px;
  }
