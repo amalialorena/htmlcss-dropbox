@@ -3,5 +3,72 @@
       padding: 0;
       margin: 0;
       box-sizing: border-box;
-      border: 1px solid black;
+      /* border: 1px solid black; */
+  } 
+
+  body {
+      margin-top: 50px;
   }
+
+  .clearfix::after{
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+  .button {
+      color:white;
+      background-color: rgb(53, 53, 245);
+      padding: 3px 15px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  /* Header */
+
+  nav {
+      height: 50px;
+      position: fixed;
+      top: 0; 
+      left: 0;
+      right: 0;
+      width: 100%;
+      line-height: 50px;
+
+  }
+  .logo {
+      display:inline-block;
+  }
+
+  ul {
+      display: inline-block;
+  }
+
+  ul li {
+      display: inline-block;
+  }
+
+  li a {
+      margin-right: 30px;
+     
+  }
+  
+ .left {
+     display: inline-block;
+     text-align: left;
+     width: 48%;
+ }
+ .left img {
+
+     line-height: 50px;
+     vertical-align: middle;
+     margin-right: 20px;
+     margin-left: 10px;   
+ }
+
+ .right {
+     width: 50%;
+     display: inline-block;
+     text-align: right;
+ }
