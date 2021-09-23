@@ -131,9 +131,23 @@ main .container h2 {
 .promotion {
     width: 30%;
     float: left;
+    margin-bottom: 30px;
 }
 
 .promotion.center {
     margin-right: 5%;
     margin-left: 5%;
+}
+
+.horizontal-section {
+    margin-bottom: 30px;
+}
+
+.horizontal-left {
+    width: 70%;
+    float:left;
+}
+.horizontal-right {
+    width: 30%;
+    float: right;
 }
