@@ -36,6 +36,12 @@
   ul li {
     list-style-type: none;
   }
+
+  i {
+    margin-right: 5px;
+ }
+
+
   /* Nav bar */
   nav .right a.button {
       display: inline;
@@ -43,6 +49,7 @@
       background-color: #2644ff;
       padding: 5px 15px;
       font-size: 13px;
+      
   }
 
   nav {
@@ -54,6 +61,7 @@
       width: 100%;
       line-height: 50px;
       background-color: white;
+      border-bottom: 2px solid #d3d2d5;
   }
 
   nav ul {
@@ -86,7 +94,6 @@
      float:right;
      margin-right: 10px;
  }
-
 
 
 /* Header */
@@ -132,6 +139,7 @@ h1 {
  }
 
 
+
  /* Main content */
 
  /* Section 1 */
@@ -160,7 +168,8 @@ main .container h2 {
 .promotion .column-border {
     border: 2px solid #d3d2d5;
     border-radius: 3px;
-    padding: 20px 20px;
+    padding: 20px 20px 200px;
+    font-size: 15px;
     
 }
 
@@ -199,6 +208,31 @@ main .container h2 {
     margin-bottom: 50px;
 }
 
+.column-border .cta-container {
+    text-align:center;
+    margin-bottom: 30px;
+}
+
+.column-border a.buy-now {
+    text-decoration: underline;
+}
+.column-border .or{
+    width: 20%;
+    padding: 0 0 30px 0;
+    border-bottom: 1px solid #d3d2d5;
+    display: inline-block;
+}
+
+.promotion-second-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.column-border ul li {
+    margin-bottom: 25px;
+}
 
 
 /* Horizontal column */ 
