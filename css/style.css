@@ -18,9 +18,9 @@
 
   .button {
       color:white;
-      background-color: rgb(53, 53, 245);
-      padding: 5px 15px;
-      font-size: 13px;
+      background-color: #2644ff;
+      padding: 12px 21px;
+      font-size: 17px;
       display: inline-block; 
   }
 
@@ -37,8 +37,12 @@
     list-style-type: none;
   }
   /* Nav bar */
-  .right a.button {
+  nav .right a.button {
       display: inline;
+      color:white;
+      background-color: #2644ff;
+      padding: 5px 15px;
+      font-size: 13px;
   }
 
   nav {
@@ -83,10 +87,12 @@
      margin-right: 10px;
  }
 
+
+
 /* Header */
  
 header {
-    background-color: rgb(124, 165, 240);
+   background-color: #a6c5e1;
     margin-bottom: 170px;
 }
 
@@ -121,6 +127,10 @@ h1 {
      margin-top: 40px;
  }
 
+ h2 {
+     font-size: 40px;
+ }
+
 
  /* Main content */
 
@@ -128,23 +138,74 @@ h1 {
 
 main .container h2 {
     text-align: left;
-    font-size: 30px;
     margin-bottom: 30px;
 }
 
 .promotion {
     width: 30%;
     float: left;
-    margin-bottom: 30px;
+    margin-bottom: 30px; 
 }
 
-.center-column {
+.promotion .promotion-type {
+    border-radius: 3px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    border-top: 2px solid #d3d2d5;
+    border-left: 2px solid #d3d2d5;
+    border-right: 2px solid #d3d2d5;
+    width: 100%;
+}
+.promotion .column-border {
+    border: 2px solid #d3d2d5;
+    border-radius: 3px;
+    padding: 20px 20px;
+    
+}
+
+.promotion.center-column {
     margin-right: 5%;
     margin-left: 5%;
 }
+.column-border a.button {
+    padding: 10px 40px;
+    font-size: 14px;
+ }
+.column-border .promotion-title{
+    font-size: 24px;
+    font-weight:800;
+    margin-bottom: 20px;
+}
+
+.column-border .promotion-price{
+    font-weight: 700;
+    margin-bottom: 13px;
+}
+
+.column-border .promotion-period {
+    color:#357bbd;
+    margin-bottom: 45px;
+}
+.column-border .promotion-user {
+    margin-bottom: 20px;
+}
+
+.column-border .promotion-space{
+    margin-bottom: 20px;
+}
+
+.column-border .promotion-functions {
+    margin-bottom: 50px;
+}
+
+
+
+/* Horizontal column */ 
 
 .horizontal-section {
     margin-bottom: 30px;
+    clear: both;
 }
 
 .horizontal-left {
@@ -156,9 +217,12 @@ main .container h2 {
     float: right;
 }
 
-.section1 {
+.billing-profile {
     margin-bottom: 150px;
 }
+
+
+
 
 /* Section 2 */
 
@@ -207,7 +271,7 @@ main .container h2 {
 /* Section 5 */
 .section5 {
     height: 270px;
-    background-color: cornflowerblue;
+    background-color: #a6c5e1;
 }
 
 .section5 .title h2 {
