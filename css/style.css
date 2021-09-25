@@ -417,6 +417,8 @@ main .billing-profile h2 {
 footer {
     background-color: black;
     color:white;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 footer .links .column {
@@ -424,8 +426,9 @@ footer .links .column {
     float: left;
 }
 
-footer a{
+footer a {
     color: white;
+    font-size: 14px;
 }
 
 footer .links , .lang {
@@ -433,18 +436,28 @@ footer .links , .lang {
     margin:auto;
 }
 
-footer .links {
-    margin-bottom: 100px;
-    margin-top: 100px;
+footer li {
+    margin-bottom: 10px;
 }
 
-footer .lang {
+footer .links {
+    margin-bottom: 100px;
+}
+
+footer .link-title {
+    font-size: 22px;
+    font-weight: 700;
     margin-bottom: 20px;
-    
 }
 
 footer .lang .it {
-    width: 80px;
+    width: 86px;
     border-top: 1px solid white;
     padding-top:30px;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+footer .lang .it i {
+    margin-left: 3px;
 }
