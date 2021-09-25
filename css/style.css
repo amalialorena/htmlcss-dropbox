@@ -406,10 +406,14 @@ main .billing-profile h2 {
     border-bottom: 1px solid #d3d2d5;
     border-top: 1px solid #d3d2d5;
     font-weight: 700;
+    position: relative;
 }
 
 .faq .question i {
     margin-left:50%;
+    position: absolute;
+    top: 45px;
+    right: 30px;
 }
 
 /* Footer */
