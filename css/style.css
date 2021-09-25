@@ -148,7 +148,7 @@ h1 {
 
  /* Section 1 */
 
-main .container h2 {
+main .billing-profile h2 {
     text-align: left;
     margin-bottom: 30px;
 }
@@ -265,7 +265,7 @@ main .container h2 {
     text-align: center;
     height: 50px;
     line-height: 50px;
-    border-bottom: 1px solid #d3d2d5;;
+    border-bottom: 1px solid #d3d2d5;
 }
 
 .horizontal-section {
@@ -361,27 +361,55 @@ main .container h2 {
 
 /* Section 4 */
 
-
-/* Section 5 */
-.section5 {
-    height: 270px;
-    background-color: #a6c5e1;
+.clients .container a {
+    text-decoration: underline;
+    color: #1c22ff;
+}
+.clients .container {
+    margin-bottom: 45px;
 }
 
-.section5 .title h2 {
+.call-to-action {
+    background-color:#a6c5e1;
+}
+
+.call-to-action .container .title h2 {
     float:left;
-    width: 70%;
+    width: 65%;  
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
-.section5 .cta a {
+.call-to-action .cta {
     float:right;
-    width: 30%;
+    width: 35%;
 }
+.call-to-action .cta a {
+   margin-top: 100px;
+   padding: 10px 70px;
+   color: black;
+   background-color: white;
+}
+
 
 /* Section 6 */
 .faq {
     margin-top: 130px;
     margin-bottom: 130px;
+}.faq h3 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.faq .question {
+    padding: 40px 0;
+    border-bottom: 1px solid #d3d2d5;
+    border-top: 1px solid #d3d2d5;
+    font-weight: 700;
+}
+
+.faq .question i {
+    margin-left:50%;
 }
 
 /* Footer */
