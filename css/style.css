@@ -375,14 +375,16 @@ main .billing-profile h2 {
 
 .call-to-action .container .title h2 {
     float:left;
-    width: 65%;  
+    width: 55%;  
     margin-top: 100px;
     margin-bottom: 100px;
+    color:#4d0120;
 }
 
 .call-to-action .cta {
     float:right;
-    width: 35%;
+    width: 45%;
+    text-align: right;
 }
 .call-to-action .cta a {
    margin-top: 100px;
