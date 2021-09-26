@@ -369,8 +369,88 @@ main .billing-profile h2 {
     margin-bottom: 45px;
 }
 
+.clients .container h2 {
+    margin-bottom: 30px;
+}
+
+/* Brands */
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+}
+.brands-left .box {
+  float:left;
+}
+
+.brands-right .box {
+  float:right;
+}
+
+.box svg path {
+  fill: white;
+}
+
+.brands .designit {
+    background-color: green;
+}
+.brands .topps {
+  background-color: red;
+  overflow: hidden;
+}
+
+.brands .asu {
+    background-color: indianred;
+    overflow: hidden;
+ }
+
+ .brands .uf {
+   background-color: blue;
+ }
+
+ .brands-right .wbr {
+  background-color: red; 
+}  
+
+.brands-right .wbr {
+  background-color: red;
+}
+ 
+.brands svg {
+    width: 50%;
+}
+
+.brands-left {
+    float: left;
+    width: 400px;
+    height: 400px;
+}
+
+.brands-right {
+    float: right;
+    width: 400px;
+    height: 400px;
+}
+ 
+.details {
+  width: 40%;
+   float: left;
+   padding: 50px;
+}
+
+
+
+
+
+
+
+ /* /brands */
+
 .call-to-action {
     background-color:#a6c5e1;
+    clear: both;
 }
 
 .call-to-action .container .title h2 {
