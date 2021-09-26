@@ -386,7 +386,7 @@ main .billing-profile h2 {
 }
 
 .brands-right .box {
-  float:right;
+  float: left;
 }
 
 .box svg path {
@@ -414,10 +414,17 @@ main .billing-profile h2 {
   background-color: red; 
 }  
 
-.brands-right .wbr {
-  background-color: red;
+.brands-right .hearst {
+  background-color: #a6c5e1;
 }
- 
+
+.brands .lonely-planet {
+  background-color: blue;
+}
+.brands-right .clear-channel {
+  background-color: yellow;
+}
+
 .brands svg {
     width: 50%;
 }
