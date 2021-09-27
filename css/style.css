@@ -6,7 +6,7 @@
   } 
 
   body {
-      margin-top: 50px;
+      margin-top: 80px;
       font-family: 'Open Sans', sans-serif; 
   }
 
@@ -30,7 +30,7 @@
  }
 
   .container {
-    width: 65%;
+    width: 75%;
     margin:auto;
 }
 
@@ -62,13 +62,13 @@
   }
 
   nav {
-      height: 50px;
+      height: 80px;
       position: fixed;
       top: 0; 
       left: 0;
       right: 0;
       width: 100%;
-      line-height: 50px;
+      line-height: 80px;
       background-color: white;
       border-bottom: 2px solid #d3d2d5;
       z-index: 10;
@@ -84,7 +84,7 @@
 
   nav li a {
       margin-right: 30px;
-     
+      color: black;
   }
   
  .left {
@@ -173,6 +173,7 @@ main .billing-profile h2 {
     display: inline-block;
     margin-bottom: -4px;
     border-radius: 50px;
+    cursor: pointer;
 }
 
 .pay .checkbox.active {
@@ -206,9 +207,8 @@ main .billing-profile h2 {
 .promotion .column-border {
     border: 1px solid #d3d2d5;
     border-radius: 3px;
-    padding: 20px 20px 200px;
-    font-size: 15px;
-    
+    padding: 20px 20px 200px 40px;
+    font-size: 15px; 
 }
 
 .promotion.center-column {
@@ -228,7 +228,7 @@ main .billing-profile h2 {
 }
 
 .column-border .promotion-period {
-    color:#357bbd;
+    color:#5b6976;
     margin-bottom: 45px;
 }
 .column-border .promotion-user {
@@ -250,6 +250,7 @@ main .billing-profile h2 {
 
 .column-border a.buy-now {
     text-decoration: underline;
+    color: #2644ff;
 }
 .column-border .or{
     width: 20%;
@@ -267,6 +268,13 @@ main .billing-profile h2 {
 
 .column-border ul li {
     margin-bottom: 25px;
+}
+.column-border ul li i{
+    margin-left: -19px;
+ }
+
+ ul.check li i {
+     color:#2644ff;
 }
 
 
@@ -311,7 +319,7 @@ main .billing-profile h2 {
     margin-bottom: 20px;
 }
 
-/* Section 2 */
+/* Partner */
 
 .partner-img {
   width: 55%;
@@ -353,7 +361,7 @@ main .billing-profile h2 {
 
 
 
-/* Section 3 */
+/* Tools 3 */
 
 .tools .content {
     width: 30%;
@@ -385,7 +393,7 @@ main .billing-profile h2 {
 }
 
 
-/* Section 4 */
+/* Brands */
 
 .clients .container a {
     text-decoration: underline;
@@ -399,7 +407,7 @@ main .billing-profile h2 {
     margin-bottom: 30px;
 }
 
-/* Brands */
+
 
 .box {
     width: 200px;
@@ -407,11 +415,6 @@ main .billing-profile h2 {
     text-align: center;
     position: relative;
 }
-
-/* Non funziona
-.box:hover{
-    border: 5px black;
-} */
 
 .brands-left .box {
   float:left;
