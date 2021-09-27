@@ -181,10 +181,12 @@ main .billing-profile h2 {
     margin-right: 5%;
     margin-left: 5%;
 }
+
 .column-border a.button {
     padding: 10px 40px;
     font-size: 14px;
  }
+
 .column-border .promotion-title{
     font-size: 24px;
     font-weight:800;
@@ -378,9 +380,15 @@ main .billing-profile h2 {
 .box {
     width: 200px;
     height: 200px;
-    border: 1px solid black;
     text-align: center;
+    position: relative;
 }
+
+/* Non funziona
+.box:hover{
+    border: 5px black;
+} */
+
 .brands-left .box {
   float:left;
 }
@@ -394,7 +402,8 @@ main .billing-profile h2 {
 }
 
 .brands .designit {
-    background-color: green;
+    background-color:#93cc89;
+    border: 10px solid#c6e5c2
 }
 .brands .topps {
   background-color: red;
@@ -402,16 +411,16 @@ main .billing-profile h2 {
 }
 
 .brands .asu {
-    background-color: indianred;
+    background-color:#4d0020;
     overflow: hidden;
  }
 
  .brands .uf {
-   background-color: blue;
+   background-color:#107fc3;
  }
 
  .brands-right .wbr {
-  background-color: red; 
+  background-color: #c80019; 
 }  
 
 .brands-right .hearst {
@@ -419,14 +428,18 @@ main .billing-profile h2 {
 }
 
 .brands .lonely-planet {
-  background-color: blue;
+  background-color: #0c156e;
 }
 .brands-right .clear-channel {
-  background-color: yellow;
+  background-color: #fed226;
 }
 
 .brands svg {
-    width: 50%;
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .brands-left {
@@ -440,11 +453,37 @@ main .billing-profile h2 {
     width: 400px;
     height: 400px;
 }
- 
+/* Details  */
+
 .details {
-  width: 40%;
+   width: calc(100% - 800px);
+   height: 400px;
    float: left;
-   padding: 50px;
+   background-color:#f2f2f2;
+   overflow-y: scroll hidden;
+   overflow-x: hidden;
+}
+
+.details .logo svg path {
+    fill: black;
+}
+
+.details .logo {
+    height: 123px;
+}
+
+.details p, .author {
+    margin-bottom: 18px;
+    padding: 0 50px;
+}
+
+.details p::before {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #d3d2d5;
+    display: block;
+    margin-bottom:30px;
 }
 
 
@@ -453,7 +492,9 @@ main .billing-profile h2 {
 
 
 
- /* /brands */
+
+
+ /* Call to action section*/
 
 .call-to-action {
     background-color:#a6c5e1;
@@ -481,7 +522,7 @@ main .billing-profile h2 {
 }
 
 
-/* Section 6 */
+/* FAQ */
 .faq {
     margin-top: 130px;
     margin-bottom: 130px;
@@ -493,9 +534,12 @@ main .billing-profile h2 {
 .faq .question {
     padding: 40px 0;
     border-bottom: 1px solid #d3d2d5;
-    border-top: 1px solid #d3d2d5;
     font-weight: 700;
     position: relative;
+}
+
+.faq div:first-of-type {
+    border-top: 1px solid #d3d2d5; 
 }
 
 .faq .question i {
