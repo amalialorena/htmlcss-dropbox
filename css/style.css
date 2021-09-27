@@ -24,6 +24,11 @@
       display: inline-block; 
   }
 
+  .button.blue {
+    padding: 8px 40px;
+    font-size: 14px;
+ }
+
   .container {
     width: 65%;
     margin:auto;
@@ -66,6 +71,7 @@
       line-height: 50px;
       background-color: white;
       border-bottom: 2px solid #d3d2d5;
+      z-index: 10;
   }
 
   nav ul {
@@ -110,21 +116,22 @@ header {
 .jumbo-container {
     padding: 100px 140px 0 140px;
     text-align: left;
+    margin-bottom: 1px;
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 700;
+    margin-bottom: 30px;
 }
 
-.text {
-    width: 400px;
-    margin-top: 40px;
+.jumbo-container .text {
+    width: 30%;
     float:left;
 }
- .text p {
-     margin-bottom: 20px;
-     font-size: 15px;
+.jumbo-container .text p {
+     margin-bottom: 35px;
+     font-size: 16px;
  }
 
  .text .cancel {
@@ -135,7 +142,7 @@ h1 {
  .jumbo-img img{
      width: 70%;
      float:right;
-     margin-top: 40px;
+     margin-bottom: -76px;
  }
 
  h2 {
@@ -146,11 +153,32 @@ h1 {
 
  /* Main content */
 
- /* Section 1 */
+ /* Billing profile */
 
 main .billing-profile h2 {
     text-align: left;
     margin-bottom: 30px;
+}
+
+.pay .checkbox {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #d3d2d5;
+    display: inline-block;
+    margin-bottom: -4px;
+    border-radius: 50px;
+}
+
+.pay .checkbox.active {
+    border: 5px solid #2644ff;
+}
+
+.billing-profile .pay {
+    margin-bottom: 30px;
+}
+
+.billing-profile .pay span:first-of-type {
+    margin-right: 15px;
 }
 
 .promotion {
@@ -181,11 +209,6 @@ main .billing-profile h2 {
     margin-right: 5%;
     margin-left: 5%;
 }
-
-.column-border a.button {
-    padding: 10px 40px;
-    font-size: 14px;
- }
 
 .column-border .promotion-title{
     font-size: 24px;
@@ -254,7 +277,6 @@ main .billing-profile h2 {
     padding: 30px 0 30px 30px;
 }
 .horizontal-right {
-    width: 40%;
     float: right;
     padding: 30px 30px 30px 0;
 }
@@ -281,10 +303,6 @@ main .billing-profile h2 {
 
 .horizontal-left h4 {
     margin-bottom: 20px;
-}
-
-.horizontal-right a.button{
-    padding: 12px 50px;
 }
 
 /* Section 2 */
