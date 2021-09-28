@@ -46,6 +46,10 @@
     margin-right: 5px;
  }
 
+ h2 {
+    font-size: 40px;
+}
+
  h3 {
     font-size: 25px;
  }
@@ -87,18 +91,18 @@
       color: black;
   }
   
- .left {
+  nav .left {
      display: inline-block;
  }
 
- .left img {
+  nav .left img{
     vertical-align: middle;
      line-height: 50px;
      margin-right: 20px;
      margin-left: 10px;   
  }
 
- .right {
+ nav .right {
      text-align: right;
      vertical-align: middle;
      float:right;
@@ -140,22 +144,18 @@ h1 {
      font-size: 13px;
  }
 
+.jumbo-container .text a i {
+    font-size: 45px;
+    color:black;
+}
+
+ /* Jumbo img */
+
  .jumbo-img img{
      width: 70%;
      float:right;
      margin-bottom: -66px;
  }
-
- h2 {
-     font-size: 40px;
- }
-
- .jumbo-container .text a i {
-     font-size: 45px;
-     color:black;
- }
-
-
 
  /* Main content */
 
@@ -204,7 +204,7 @@ main .billing-profile h2 {
     border-right: 1px solid #d3d2d5;
     width: 100%;
 }
-.promotion .column-border {
+.promotion .column {
     border: 1px solid #d3d2d5;
     border-radius: 3px;
     padding: 20px 20px 200px 40px;
@@ -216,43 +216,43 @@ main .billing-profile h2 {
     margin-left: 5%;
 }
 
-.column-border .promotion-title{
+.column .promotion-title{
     font-size: 24px;
     font-weight:800;
     margin-bottom: 20px;
 }
 
-.column-border .promotion-price{
+.column .promotion-price{
     font-weight: 700;
     margin-bottom: 13px;
 }
 
-.column-border .promotion-period {
+.column .promotion-period {
     color:#5b6976;
     margin-bottom: 45px;
 }
-.column-border .promotion-user {
+.column .promotion-user {
     margin-bottom: 20px;
 }
 
-.column-border .promotion-space{
+.column .promotion-space{
     margin-bottom: 20px;
 }
 
-.column-border .promotion-functions {
+.column .promotion-functions {
     margin-bottom: 50px;
 }
 
-.column-border .cta-container {
+.column .cta-container {
     text-align:center;
     margin-bottom: 30px;
 }
 
-.column-border a.buy-now {
+.column a.buy-now {
     text-decoration: underline;
     color: #2644ff;
 }
-.column-border .or{
+.column .or{
     width: 20%;
     padding: 0 0 30px 0;
     border-bottom: 1px solid #d3d2d5;
@@ -266,10 +266,10 @@ main .billing-profile h2 {
     margin-bottom: 20px;
 }
 
-.column-border ul li {
+.column ul li {
     margin-bottom: 25px;
 }
-.column-border ul li i{
+.column ul li i{
     margin-left: -19px;
  }
 
@@ -353,7 +353,7 @@ main .billing-profile h2 {
     margin-bottom: 20px;
 }
 
-.partner a.button {
+.button.white {
     color: black;
     background-color: white;
     border: 1px solid black;
@@ -513,14 +513,6 @@ main .billing-profile h2 {
     margin-bottom:30px;
 }
 
-
-
-
-
-
-
-
-
  /* Call to action section*/
 
 .call-to-action {
@@ -541,11 +533,9 @@ main .billing-profile h2 {
     width: 45%;
     text-align: right;
 }
-.call-to-action .cta a {
+.call-to-action .cta .button.white {
    margin-top: 100px;
    padding: 10px 70px;
-   color: black;
-   background-color: white;
 }
 
 
