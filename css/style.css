@@ -283,6 +283,8 @@ main .billing-profile h2 {
 .horizontal-section {
     margin-bottom: 30px;
     clear: both;
+    border: 1px solid  #d3d2d5;
+    margin-top: 30px;
 }
 
 .horizontal-left {
@@ -306,11 +308,6 @@ main .billing-profile h2 {
     border-bottom: 1px solid #d3d2d5;
 }
 
-.horizontal-section {
-    border: 1px solid  #d3d2d5;
-    margin-top: 30px;
-}
-
 .horizontal-left h3 {
     margin-bottom: 20px;
 }
@@ -331,17 +328,14 @@ main .billing-profile h2 {
     float: left;
 }
 
-.partner-text {
-    width: 45%;
-    float:right;
-}
-
 .partner {
     margin-bottom: 150px;
 }
 
 .partner .partner-text {
     padding: 40px 0 40px 40px;
+    width: 45%;
+    float:right;
 }
 
 .partner-text h3 {
@@ -406,8 +400,6 @@ main .billing-profile h2 {
 .clients .container h2 {
     margin-bottom: 30px;
 }
-
-
 
 .box {
     width: 200px;
