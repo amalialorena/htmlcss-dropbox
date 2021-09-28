@@ -1,4 +1,5 @@
   /* general */
+  
   * {
       padding: 0;
       margin: 0;
@@ -23,6 +24,12 @@
       font-size: 17px;
       display: inline-block; 
   }
+
+  .button.white {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
 
   .button.blue {
     padding: 8px 40px;
@@ -56,13 +63,13 @@
 
 
   /* Nav bar */
+
   nav .right a.button {
       display: inline;
       color:white;
       background-color: #2644ff;
       padding: 5px 15px;
-      font-size: 13px;
-      
+      font-size: 13px;   
   }
 
   nav {
@@ -108,7 +115,6 @@
      float:right;
      margin-right: 10px;
  }
-
 
 /* Header */
  
@@ -204,7 +210,7 @@ main .billing-profile h2 {
     border-right: 1px solid #d3d2d5;
     width: 100%;
 }
-.promotion .column-border {
+.promotion .column {
     border: 1px solid #d3d2d5;
     border-radius: 3px;
     padding: 20px 20px 200px 40px;
@@ -216,43 +222,43 @@ main .billing-profile h2 {
     margin-left: 5%;
 }
 
-.column-border .promotion-title{
+.column .promotion-title{
     font-size: 24px;
     font-weight:800;
     margin-bottom: 20px;
 }
 
-.column-border .promotion-price{
+.column .promotion-price{
     font-weight: 700;
     margin-bottom: 13px;
 }
 
-.column-border .promotion-period {
+.column .promotion-period {
     color:#5b6976;
     margin-bottom: 45px;
 }
-.column-border .promotion-user {
+.column .promotion-user {
     margin-bottom: 20px;
 }
 
-.column-border .promotion-space{
+.column .promotion-space{
     margin-bottom: 20px;
 }
 
-.column-border .promotion-functions {
+.column .promotion-functions {
     margin-bottom: 50px;
 }
 
-.column-border .cta-container {
+.column .cta-container {
     text-align:center;
     margin-bottom: 30px;
 }
 
-.column-border a.buy-now {
+.column a.buy-now {
     text-decoration: underline;
     color: #2644ff;
 }
-.column-border .or{
+.column .or{
     width: 20%;
     padding: 0 0 30px 0;
     border-bottom: 1px solid #d3d2d5;
@@ -266,10 +272,10 @@ main .billing-profile h2 {
     margin-bottom: 20px;
 }
 
-.column-border ul li {
+.column ul li {
     margin-bottom: 25px;
 }
-.column-border ul li i{
+.column ul li i{
     margin-left: -19px;
  }
 
@@ -277,12 +283,12 @@ main .billing-profile h2 {
      color:#2644ff;
 }
 
-
 /* Horizontal column */ 
 
 .horizontal-section {
     margin-bottom: 30px;
-    clear: both;
+    border: 1px solid  #d3d2d5;
+    margin-top: 30px;
 }
 
 .horizontal-left {
@@ -306,11 +312,6 @@ main .billing-profile h2 {
     border-bottom: 1px solid #d3d2d5;
 }
 
-.horizontal-section {
-    border: 1px solid  #d3d2d5;
-    margin-top: 30px;
-}
-
 .horizontal-left h3 {
     margin-bottom: 20px;
 }
@@ -331,17 +332,14 @@ main .billing-profile h2 {
     float: left;
 }
 
-.partner-text {
-    width: 45%;
-    float:right;
-}
-
 .partner {
     margin-bottom: 150px;
 }
 
 .partner .partner-text {
     padding: 40px 0 40px 40px;
+    width: 45%;
+    float:right;
 }
 
 .partner-text h3 {
@@ -353,32 +351,24 @@ main .billing-profile h2 {
     margin-bottom: 20px;
 }
 
-.button.white {
-    color: black;
-    background-color: white;
-    border: 1px solid black;
-}
-
-
-
 /* Tools 3 */
 
+.tools {
+    margin-bottom: 200px;
+} 
 .tools .content {
     width: 30%;
     float: left;
 }
 
-.content img {
+.tools .content img {
     height: 100%;
     width: 100%;  
 }
-.first-row {
+.tools .first-row {
     margin-bottom: 120px;
 }
 
-.tools {
-    margin-bottom: 200px;
-} 
 .tools h3 {
     margin-bottom: 20px;
 }
@@ -391,7 +381,6 @@ main .billing-profile h2 {
     margin-right: 5%;
     margin-left: 5%;
 }
-
 
 /* Brands */
 
@@ -432,6 +421,7 @@ main .billing-profile h2 {
     background-color:#93cc89;
     border: 10px solid#c6e5c2
 }
+
 .brands .topps {
   background-color: red;
   overflow: hidden;
@@ -457,6 +447,7 @@ main .billing-profile h2 {
 .brands .lonely-planet {
   background-color: #0c156e;
 }
+
 .brands-right .clear-channel {
   background-color: #fed226;
 }
@@ -480,6 +471,7 @@ main .billing-profile h2 {
     width: 400px;
     height: 400px;
 }
+
 /* Details  */
 
 .details {
@@ -536,14 +528,18 @@ main .billing-profile h2 {
 .call-to-action .cta .button.white {
    margin-top: 100px;
    padding: 10px 70px;
+   border: 0;
 }
 
 
 /* FAQ */
+
 .faq {
     margin-top: 130px;
     margin-bottom: 130px;
-}.faq h3 {
+}
+
+.faq h3 {
     font-size: 32px;
     margin-bottom: 40px;
 }
@@ -603,6 +599,8 @@ footer .link-title {
     font-weight: 700;
     margin-bottom: 20px;
 }
+
+/* Horizontal section */
 
 footer .lang .it {
     width: 86px;
