@@ -585,6 +585,9 @@ main .billing-profile h2 {
     display: block;
 }
 
+.question:focus i {
+    transform: rotate(180deg);
+}
 
 .faq {
     margin-top: 130px;
@@ -608,7 +611,9 @@ main .billing-profile h2 {
 }
 
 .faq .question i {
-    margin-left:56%;
+    position:absolute;
+    top: 50px;
+    right: 25px;
 }
 
 /* Footer */
